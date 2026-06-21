@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cайт как создать сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+         <h1>Этот сайт о том, как создать сайт. </h1>
+        <nav>
+            <div class="bignav">
+            <div class="smallnav">
+           
+            <ul>
+            <li><a href="#шаг1">ШАГ 1</a></li>
+            <li><a href="#шаг2">ШАГ 2</a></li>
+            <li><a href="#шаг3">ШАГ 3</a></li>
+            <li><a href="#шаг4">ШАГ 4</a></li>
+            <li><a href="#шаг5">ШАГ 5</a></li>
+</ul>
+</div>
+<div class="smallnav"><ul>
+    <li><a href="https://youtu.be/d9p9lz-C3AU">Ссылка на ютуб ,,Урок 1 Сайт с нуля,,</a></li>
+    <li><a href="https://youtu.be/EYJ8mlLcdwQ">Урок по телеграм</a></li>
+</ul></div>
+</div>
+        </nav>
+    </header>
+    <main>
+
+        <section1>
+    <div class="bgr1">
+   
+<p> <H4 id="шаг1">ШАГ 1. Установка редактора.</H4>
+    Первое что необходимо это РЕДАКТОР, в котором будем творить наш сайт. <br>
+    Самый оптимально подходящий редактор выберем Visual Studio Code. <br>
+    Загружаем только с официального источника. <br>
+    Visual Studio Code — официальный сайт загрузки 
+    <a href="https://code.visualstudio.com/download">ссылка</a>
+    <img src="images/image9.png" alt="фото где надо нажимать для Windows">
+    
+    <ol>
+        <li>Дважды щёлкни по файлу.</li>
+<li>Если появится окно контроля учётных записей Windows — нажми «Да».</li>
+<li>Нажми «Далее» (Next).</li>
+<li>Прими лицензию (I accept the agreement).</li>
+Оставь путь установки по умолчанию.
+<li>На этапе дополнительных задач полезно поставить галочки: <br>
+Add "Open with Code" action (открывать через VS Code). <br>
+Add to PATH (очень полезно для Python и Flask). <br>
+</li>
+<li>Нажми Install.</li>
+
+РЕДАКТОР установлен. Теперь подготовка редактора.
+
+</ol>
+</p>
+</div>
+
+<div class="bgr2">
+<p class="ptext2">
+    </section1>
+
+    <section2>
+    <H4 id="шаг2">ШАГ 2. Подготовка редактора (загрузка расширений (EXTENSIONS))</H4> <br>
+    Как установить <br>
+Открой VS Code. <br>
+Нажми слева значок Extensions (Ctrl+Shift+X). <br>
+Введи название расширения. <br>
+Нажми Install. <br>
+<ol>
+    <li>1. HTML CSS Support <br>
+
+Подсказки CSS-классов в HTML.</li>
+<li>2. Live Server <br>
+
+Позволяет открывать HTML-страницы в браузере и автоматически обновлять их при изменениях.</li>
+<li>
+    3. Prettier - Code Formatter <br>
+
+Автоматически красиво форматирует HTML, CSS и JavaScript.
+</li>
+<li>
+    4. Auto Rename Tag <br>
+
+Автоматически меняет парный HTML-тег.
+</li>
+</ol>
+
+</p>
+
+
+</div>
+
+</section2>
+
+<section3>
+
+<div class="brg3">
+    <p><h4 id="шаг3">ШАГ 3. Начинаем работать в РЕДАКТОРе. Установка файлов, папок</h4> <br>
+        <img src="images/image7.png " class="foto_redactora" alt="фото редактора"> <br>
+    Устанавливаем нужные файлы и папки. <br>
+    1. В левом верхнем углу нажимаем на file, из появившемся меню выбираем ,,open folder,, <br>
+    Создаем папку к примеру ,,My-first-site,, энтэр, и выбираем. <br> 
+    Папка сделана. <br>
+    2. создаем файл index.html <br>
+    <img src="images/image10.png" class="foto-file" alt="фото">
+    там где файл\ нажимаем и вводим index.html <br>
+    первая строка вводим знак восклицания ,!, \ появится абреатура\ кликаем\ и появится корневой код хтмл <br>
+      <pre><code id="example1"></code></pre>
+
+<script>
+document.getElementById("example1").textContent =`
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>`; 
+</script>
+    что то вроде такого <br>
+    3. Ниже тега body вводим тег оглавления h1  и пишем между названия сайта\к примеру My first site <br>
+    в меню опции file(в левом верхнем углу ставим галочку где auto save\ и теперь все ваши изменения )<br>
+    будут записываться автоматичечки <br>
+    4. нажимаем на Go live   в нижнем правом углу\ и в браузере должен появиться ваш сайт/ <br>
+    это еще не сайт продакшена\ это ваш локальный сайт <br>
+    5. Таким образом устанавливаем файл style.css <br>
+    6. Делаем папку images для фото и изображений <br>
+     7. Подключаем стили в head после meta. <pre><code>&lt;link rel="stylesheet" href="style.css"&gt;
+    </code></pre>
+
+    </section3>
+
+
+<section4>
+<div class="bigb">
+    <div class="block">
+        <p>
+        <h4 id="шаг4">ШАГ 4</h4>
+        
+<h5>Удобная таблица основных HTML-тегов с примерами.</h5>
+<p text>
+            <pre><code id="example2"></code></pre>
+
+<script>
+document.getElementById("example2").textContent =`  
+
+
+Тег	Назначение	Пример
+<h1>	Заголовок 1 уровня	<h1>Заголовок</h1>
+<h2>	Заголовок 2 уровня	<h2>Подзаголовок</h2>
+<p>	Абзац	<p>Текст абзаца</p>
+<br>	Перенос строки	Первая строка<br>Вторая строка
+<hr>	Горизонтальная линия	<hr>
+<strong>	Жирный текст	<strong>Важно</strong>
+<em>	Курсив	<em>Курсив</em>
+<u>	Подчеркивание	<u>Текст</u>
+<a>	Ссылка	<a href="https://site.com">Сайт</a>
+<img>	Изображение	<img src="cat.jpg" alt="Кот">
+<video>	Видео	<video src="movie.mp4" controls></video>
+<audio>	Аудио	<audio src="music.mp3" controls></audio>
+<div>	Блочный контейнер	<div>Блок</div>
+<span>	Строчный контейнер	<span>Текст</span>
+<ul>	Маркированный список	<ul><li>Пункт</li></ul>
+<ol>	Нумерованный список	<ol><li>Пункт</li></ol>
+<li>	Элемент списка	<li>Товар</li>
+<table>	Таблица	<table></table>
+<tr>	Строка таблицы	<tr></tr>
+<td>	Ячейка таблицы	<td>Текст</td>
+<th>	Заголовок ячейки	<th>Имя</th>
+<form>	Форма	<form></form>
+<input>	Поле ввода	<input type="text">
+<button>	Кнопка	<button>Нажми</button>
+<textarea>	Многострочный ввод	<textarea></textarea>
+<select>	Выпадающий список	<select></select>
+<option>	Пункт списка	<option>Вариант</option>
+<label>	Подпись поля	<label>Имя</label>`;
+   
+</script>
+</p> 
+</div>
+</section4>
+
+<section5>
+    <div class="block">
+  
+ <h5>Таблица самых важных CSS-свойств с примерами.</h5>
+ <p>
+    
+    <pre><code id="expl3"></code></pre>
+    <script>
+document.getElementById("expl3").textContent =`
+
+Свойство	Назначение	Пример
+color	Цвет текста	color: red;
+background-color	Цвет фона	background-color: yellow;
+background-image	Фоновая картинка	background-image: 
+                                          url("img.jpg");
+font-size	Размер текста	font-size: 24px;
+font-family	Шрифт	font-family: Arial;
+font-weight	Жирность	font-weight: bold;
+text-align	Выравнивание текста	text-align: center;
+text-decoration	Подчеркивание и др.	text-decoration: none;
+width	Ширина	width: 300px;
+height	Высота	height: 200px;
+max-width	Максимальная ширина	max-width: 100%;
+border	Граница	border: 2px solid black;
+border-radius	Скругление углов	border-radius: 10px;
+margin	Внешний отступ	margin: 20px;
+padding	Внутренний отступ	padding: 20px;
+display	Тип отображения	display: flex;
+position	Позиционирование	position: relative;
+top	Сдвиг сверху	top: 20px;
+left	Сдвиг слева	left: 30px;
+right	Сдвиг справа	right: 30px;
+bottom	Сдвиг снизу	bottom: 20px;
+overflow	Поведение переполнения	overflow: hidden;
+cursor	Вид курсора	cursor: pointer;
+opacity	Прозрачность	opacity: 0.5;`;
+    </script>
+
+
+</p>
+    </div>
+           
+</div>
+</section5>
+
+
+<section6>
+    <div>
+        <p>
+            <h5>Flexbox (очень важный)</h5>
+            <pre><code id="expl4"></code></pre>
+            <script>
+                document.getElementById("expl4").textContent =`
+                
+Свойство	Пример
+display: flex;	Включает Flexbox
+justify-content: center;	По горизонтали
+align-items: center;	По вертикали
+gap: 20px;	Расстояние между элементами
+flex-direction: row;	В строку
+flex-direction: column;	В столбец
+
+Пример:
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+Для картинок
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+Фоновая картинка
+body {
+    background-image: url("fon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+Часто используемые единицы
+Единица	Значение
+px	Пиксели
+%	Проценты
+vw	Процент ширины окна
+vh	Процент высоты окна
+rem	Относительно корневого шрифта
+em	Относительно родителя
+Универсальный пример
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}`;
+
+            </script>
+        </p>
+    </div>
+</section6>
+
+
+<section7>
+    <div>
+        <p>
+            <h5>CSS Grid — это система для создания сеток (таблиц, карточек, макетов сайта).</h5>
+            <pre><code id="expl5"></code></pre>
+            <script>
+                document.getElementById("expl5").textContent =`
+                
+
+Включение Grid
+.container {
+    display: grid;
+}
+2 колонки
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+<div class="container">
+    <div>Блок 1</div>
+    <div>Блок 2</div>
+</div>
+
+Результат:
+
+Блок 1 | Блок 2
+3 колонки
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+или короче:
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+Расстояние между блоками
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+Пример карточек
+<div class="cards">
+    <div>Карточка 1</div>
+    <div>Карточка 2</div>
+    <div>Карточка 3</div>
+    <div>Карточка 4</div>
+</div>
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.cards div {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+Результат:
+
+Карточка 1 | Карточка 2
+Карточка 3 | Карточка 4
+Адаптивная сетка
+
+Количество колонок меняется автоматически:
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+Очень популярный вариант для современных сайтов.
+
+Объединение ячеек
+.big {
+    grid-column: span 2;
+}
+<div class="container">
+    <div class="big">Большой блок</div>
+    <div>Блок 2</div>
+    <div>Блок 3</div>
+</div>
+Что учить в первую очередь
+display: grid
+grid-template-columns
+repeat()
+fr
+gap
+grid-column
+auto-fit
+minmax()
+Grid или Flex?
+Grid	                           Flex
+Для сеток	                       Для рядов и колонок
+Страница целиком	               Меню, кнопки, панели
+2 измерения (строки + колонки)	   1 измерение
+
+Обычно на современных сайтах используют Grid для общей структуры страницы, а Flexbox внутри блоков.`;
+
+            </script>
+        </p>
+    </div>
+</section7>
+
+<section7.1>
+    <div>
+        <h2 id="шаг5">ШАГ 5</h2>
+        <p>Диплоим в Netlify наш сайт. <br> 
+            Это бесплатная платформа для того чтоб выставить ваш сайт в интернет. <br>
+             <a href="https://www.netlify.com/">ссылка на Netlify</a> <br>
+            
+             Для обычной загрузки: <br>
+
+зайди на официальный сайт; <br>
+нажми Sign up (регистрация); <br>
+создай аккаунт <br>
+потом Add new site → Deploy manually. <br>
+
+    
+Перетащи папку сайта. <br>
+как найти папку сйта: <br>
+быстрый доступ на своем папке <br>
+нажимаешь на галочку и ищешь где она там в каких разделах <br>
+и переносишь ее нажав правой кнопкой мыши в Netlify <br>
+это можно посмотреть в первом видеоуроке ссылка вверху <br>
+
+В папке должны быть примерно: <br>
+
+мой_сайт/ <br>
+ ├── index.html <br>
+ ├── style.css <br>
+ ├── script.js <br>
+ └── images/ <br>
+
+После загрузки Netlify даст ссылку вида: <br>
+
+название.netlify.app
+        </p>
+    </div>
+</section7.1>
+
+<section8 class="form-box">
+
+
+<h2 class="otzuv">
+Оставить отзыв
+</h2>
+
+
+
+<form
+name="reviews"
+method="POST"
+data-netlify="true"
+netlify-honeypot="bot-field">
+
+
+
+<!-- защита от ботов -->
+
+<input
+type="hidden"
+name="form-name"
+value="reviews">
+
+
+
+<p style="display:none">
+
+<label>
+Не заполнять:
+
+<input name="bot-field">
+
+</label>
+
+</p>
+
+
+
+<label>
+Ваше имя
+</label>
+
+
+<input
+type="text"
+name="name"
+placeholder="Имя"
+maxlength="50"
+required>
+
+
+
+<label>
+Ваш отзыв
+</label>
+
+
+<textarea
+name="message"
+placeholder="Напишите отзыв"
+maxlength="500"
+required></textarea>
+
+
+
+<button type="submit">
+Отправить отзыв
+</button>
+
+
+</form>
+
+
+</section8>
+
+
+
+
+    </main>
+    
+        
+    </body>
+    </html>
+    
+    </p>
+</div>
+</body>
+</html>

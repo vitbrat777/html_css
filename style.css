@@ -1,0 +1,146 @@
+h1{
+    color: yellow;
+}
+
+
+.bignav{
+    display: flex;
+}
+
+.smallnav{
+    width: 400px;
+}
+body{
+    font-size: 18px;
+}
+header{
+    background-image: url(images/0001.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* body{
+    background-image: url(images/0001.png);
+    background-size:cover;
+    background-repeat: auto;
+} */
+.bgr1{
+    background-image: url(images/0001.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bgr2{
+    background-image: url(images/image8.png);
+    color: yellow;
+    text-align: center;
+  
+}
+.brg3{
+    background-color: rgb(172, 172, 143);
+
+    
+}
+
+
+img{
+    margin-left: 70px;
+    width: 170px;
+    height: 100px;
+}
+.foto_redactora{
+    float: right; 
+    margin-right: auto; 
+    width: 800px;
+    height: 600px;
+   
+}
+
+.foto-file{
+    margin-right: 0px;
+}
+
+.bigb{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 20px; */
+    /* flex-direction: row; */
+
+}
+
+.block{
+    width: 650px;
+    height: 850px;
+    
+    border: 5px solid rgb(22, 235, 50);
+}
+/* 
+.text{
+    
+} */
+
+
+
+.review {
+
+    background: white;
+
+    padding: 20px;
+
+    margin: 20px 0;
+
+    border-radius: 10px;
+
+}
+
+
+
+.form-box {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+}
+
+
+
+input,
+textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 10px 0;
+
+}
+
+
+
+textarea {
+
+    height: 150px;
+
+}
+
+
+
+button {
+
+    padding: 12px 25px;
+
+    cursor: pointer;
+
+}
+
+.otzuv{
+    color: beige;
+}
