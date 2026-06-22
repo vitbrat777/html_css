@@ -16,11 +16,13 @@
             <div class="smallnav">
            
             <ul>
-            <li><a href="#шаг1">ШАГ 1</a></li>
-            <li><a href="#шаг2">ШАГ 2</a></li>
-            <li><a href="#шаг3">ШАГ 3</a></li>
-            <li><a href="#шаг4">ШАГ 4</a></li>
-            <li><a href="#шаг5">ШАГ 5</a></li>
+            <li><a href id="оглавление"><h2>Оглавление</h2></a></li>
+            <li><a href="#шаг1"><h4>ШАГ 1. Установка редактора.</h4></a></li>
+            <li><a href="#шаг2"><h4>ШАГ 2. Загрузка расширений (EXTENSIONS)</h4></a></li>
+            <li><a href="#шаг3"><h4>ШАГ 3. Как установить папки и файлы.</h4></a></li>
+            <li><a href="#шаг4"><h4>ШАГ 4. Таблицы тэгов и стилей css</h4></a></li>
+            <li><a href="#шаг5"><h4>ШАГ 5. Вылаживаем сайт на netlify</h4></a></li>
+            <li><a href="#шаг6"><h4>ШАГ 6. Анимэ</h4></a></li>
 </ul>
 </div>
 <div class="smallnav"><ul>
@@ -59,6 +61,7 @@ Add to PATH (очень полезно для Python и Flask). <br>
 
 </ol>
 </p>
+<a href ="#оглавление">Назад к оглавлению</a>
 </div>
 
 <div class="bgr2">
@@ -92,6 +95,7 @@ Add to PATH (очень полезно для Python и Flask). <br>
 </ol>
 
 </p>
+<a href ="#оглавление">Назад к оглавлению</a>
 
 
 </div>
@@ -134,6 +138,16 @@ document.getElementById("example1").textContent =`
     6. Делаем папку images для фото и изображений <br>
      7. Подключаем стили в head после meta. <pre><code>&lt;link rel="stylesheet" href="style.css"&gt;
     </code></pre>
+
+    Что надо сказать о структуре хтмл страницы. <br>
+    head - служебный раздел <br>
+    body - то что будетвидно в браузере <br>
+    body - делится на header\main\footer <br>
+    header - сюда входит логотип\навигация\оглавление\контакты\о нас <br>
+    main - оглавление сайта\и содержание сайта <br>
+    footer - контактная информация, и всякое такое <br>
+    И все это в двойном теге <html></html> <br> <br> <br>
+    <a href ="#оглавление">Назад к оглавлению</a>
 
     </section>
 
@@ -183,6 +197,7 @@ document.getElementById("example2").textContent =`
 <label>	Подпись поля	<label>Имя</label>`;
    
 </script>
+<a href ="#оглавление">Назад к оглавлению</a>
 </p> 
 </div>
 
@@ -227,6 +242,8 @@ opacity	Прозрачность	opacity: 0.5;`;
 
 
 </p>
+<a href ="#оглавление">Назад к оглавлению</a>
+
     </div>
            
 </div>
@@ -409,6 +426,7 @@ Grid	                           Flex
 
             </script>
         </p>
+<a href ="#оглавление">Назад к оглавлению</a>
     </div>
 </section>
 
@@ -446,7 +464,36 @@ Grid	                           Flex
 
 название.netlify.app
         </p>
+        <a href ="#оглавление">Назад к оглавлению</a>
     </div>
+</section>
+<section>
+    <h1 id="шаг6">ШАГ 6. Анимэ.</h1>
+<div>
+<pre><code id="anime"></code></pre>
+<script>
+
+document.getElementById("anime").textContent =`  
+
+html                                                        CSS
+                                                            
+
+<!DOCTYPE html>                                             h1 {
+<html>                                                           animation: rainbow 3s infinite;
+<head>                                                          }
+<link rel="stylesheet" href="style.css">
+<head>                                                     @keyframes rainbow {
+<body>                                                          0% { color: red; }
+                                                                25% { color: yellow; }
+<h4> анимэ</h4>                                          50% { color: green; }
+                                                                75% { color: blue; }
+<\body>                                                      100% { color: red; }
+<\html>
+                                                                } 
+это код мигающего текста `;
+</script>
+<a href ="#оглавление">Назад к оглавлению</a>
+</div>
 </section>
 
 <section class="form-box">
